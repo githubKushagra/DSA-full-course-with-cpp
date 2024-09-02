@@ -11,7 +11,9 @@ void printName(int i , int n) {
 }
 
 int main() {
+
     int n;
+    cout << "Enter the value of n :- ";
     cin >> n;
     printName(1 , n);
 }
